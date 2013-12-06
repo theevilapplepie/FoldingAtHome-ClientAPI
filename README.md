@@ -14,7 +14,7 @@ The module is very basic and has the following subroutines:
   
   
 There is an example script provided with this codebase "ClientAPITest.pl" which will provide output from your client and show the raw information from each of these subroutines.<br/>
-An example of the expected output from the script is provided in ClientAPITestResult.txt<br/>
+An example of the expected output from the script is provided in "ClientAPITestResult.txt"<br/>
 
 Documentation for this module is located in "ClientAPIDoc.txt"
 
