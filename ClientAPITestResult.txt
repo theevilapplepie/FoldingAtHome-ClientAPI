@@ -1,0 +1,100 @@
+theevilapplepie@folding:~/FoldingAtHome-ClientAPI$ perl ClientAPITest.pl
+
+** Dumping from api_options
+$VAR1 = {
+          'pid-file' => '/var/run/fahclient.pid',
+          'child' => 'true',
+          'run-as' => 'fahclient',
+          'gpu' => 'true',
+          'password' => '',
+          'user' => 'Anonymous',
+          'power' => 'full',
+          'allow' => '0.0.0.0',
+          'daemon' => 'true',
+          'team' => '0'
+        };
+
+** Dumping from api_info
+$VAR1 = {
+          'System' => {
+                        'PPD' => '12296.144668',
+                        'PID' => '677',
+                        'UTC offset' => '4',
+                        'CPUs' => '4',
+                        'CPU ID' => 'AuthenticAMD Family 16 Model 4 Stepping 3',
+                        'CWD' => '/var/lib/fahclient',
+                        'CUDA' => 'Not detected',
+                        'OS Arch' => 'AMD64',
+                        'Has Battery' => 'false',
+                        'Threads' => 'POSIX_THREADS',
+                        'CPU' => 'AMD Phenom(tm) II X4 975 Processor',
+                        'OS' => 'Linux 2.6.32-5-openvz-amd64 x86_64',
+                        'Memory' => '7.56GiB',
+                        'Free Memory' => '5.17GiB',
+                        'GPUs' => '0',
+                        'On Battery' => 'false'
+                      },
+          'Build' => {
+                       'Options' => '-std=gnu++98 -O3 -funroll-loops -mfpmath=sse -ffast-math -fno-unsafe-math-optimizations -msse2',
+                       'Time' => '07:24:08',
+                       'Platform' => 'linux2 3.2.0-1-amd64',
+                       'SVN Rev' => '3923',
+                       'Branch' => 'fah/trunk/client',
+                       'Date' => 'Feb 18 2013',
+                       'Version' => '7.3.6',
+                       'Compiler' => 'GNU 4.4.7',
+                       'Mode' => 'Release',
+                       'Bits' => '64'
+                     },
+          'Folding@home Client' => {
+                                     'Copyright' => '(c) 2009-2013 Stanford University',
+                                     'Website' => 'http://folding.stanford.edu/',
+                                     'Config' => '/etc/fahclient/config.xml',
+                                     'Args' => ' --child --lifeline 670 /etc/fahclient/config.xml --run-as fahclient --pid-file=/var/run/fahclient.pid --daemon',
+                                     'Author' => 'Joseph Coffland <joseph@cauldrondevelopment.com>'
+                                   }
+        };
+
+** Dumping from api_queue
+$VAR1 = [
+          {
+            'core' => '0xa3',
+            'percentdone' => '4.66%',
+            'project' => 7515,
+            'ws' => '128.143.199.97',
+            'state' => 'RUNNING',
+            'framesdone' => 20,
+            'run' => 0,
+            'nextattempt' => '0.00 secs',
+            'clone' => 172,
+            'timeout' => '2013-12-10T02:39:49Z',
+            'creditestimate' => '5237',
+            'error' => 'NO_ERROR',
+            'id' => '00',
+            'gen' => 160,
+            'slot' => '00',
+            'totalframes' => 500,
+            'ppd' => '12296',
+            'basecredit' => '785',
+            'deadline' => '2013-12-12T14:39:49Z',
+            'attempts' => 0,
+            'waitingon' => '',
+            'eta' => '9 hours 44 mins',
+            'unit' => '0x000000c0fbcb017d4ff759e662facdb3',
+            'cs' => '128.143.231.202',
+            'assigned' => '2013-12-06T07:27:49Z',
+            'tpf' => '6 mins 08 secs'
+          }
+        ];
+
+** Dumping from api_slots
+$VAR1 = [
+          {
+            'options' => {},
+            'status' => 'RUNNING',
+            'reason' => '',
+            'id' => '00',
+            'description' => 'cpu:4'
+          }
+        ];
+
