@@ -7,20 +7,19 @@ I've used this module to create scripts that post statistics to a simple web app
 
 The module is very basic and has the following subroutines:
 
-  api_options - Provides FAH Configuration, User/Team Information, and basic system information
-  api_info - Provides System Information, Client Information / Client Build Information
-  api_queue - Provides the current running projects
-  api_slots - Provide the available slots for your FAHClient
+  api_options - Provides FAH Configuration, User/Team Information, and basic system information<br/>
+  api_info - Provides System Information, Client Information / Client Build Information<br/>
+  api_queue - Provides the current running projects<br/>
+  api_slots - Provide the available slots for your FAHClient<br/>
   
   
-There is an example script provided with this codebase "ClientAPITest.pl" which will provide output from your client and show the raw information from each of these subroutines.
-
-An example of the expected output from the script is provided in ClientAPITestResult.txt
+There is an example script provided with this codebase "ClientAPITest.pl" which will provide output from your client and show the raw information from each of these subroutines.<br/>
+An example of the expected output from the script is provided in ClientAPITestResult.txt<br/>
 
 Documentation for this module is located in "ClientAPIDoc.txt"
 
 The perl modules required for functionality are:
 
-  JSON::XS
-  Net::Telnet
-  Exporter
+  JSON::XS<br/>
+  Net::Telnet<br/>
+  Exporter<br/>
