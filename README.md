@@ -1,4 +1,4 @@
-FoldingAtHome - Client API
+Folding At Home - Perl Client API
 =======================
 
 This is a very simple perl module to allow interaction with the socket daemon ( telnet ) that the Folding at Home client runs.
